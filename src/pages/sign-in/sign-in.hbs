@@ -1,0 +1,13 @@
+{{!< layout}}
+
+<div class='flex h-screen items-center justify-center'>
+  <div class='h-[340px] w-[340px] rounded-lg bg-dark2 p-7 shadow-2xl'>
+    {{> 'headers/h1' header='sign_in'}}
+    <form>
+      {{> 'form/input-text' label='Login'}}
+      {{> 'form/input-text' label='Password'}}
+      {{> 'buttons/submit-button' label='Sign In'}}
+      {{> 'buttons/text-button' label='Create account'}}
+    </form>
+  </div>
+</div>

@@ -1,7 +1,31 @@
 {{!< layout}}
-
-<ul>
-  <li>
-    <a href="./main.hbs">Main</a>
-  </li>
-</ul>
+<div class='flex h-screen items-center justify-center'>
+  <div class='w-[340px] rounded-lg bg-dark2 p-7 shadow-2xl'>
+    {{> 'headers/h1' header='Pages list'}}
+  <nav class='block'>
+    <ul class='font-monospace text-lg text-white font-light leading-loose' >
+      <li>
+        <a class='hover:underline hover:underline-offset-8 visited:text-gray-500' href='./pages/sign-in/sign-in.hbs'>Sign In</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/sign-up/sign-up.hbs'
+        >Sign Up</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/chat/chat-unselected.hbs'>Chat (unselected)</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/chat/chat.hbs'>Chat</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/profile/profile.hbs'>Profile</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/error/404.hbs'>404</a>
+      </li>
+      <li>
+        <a class='hover:underline hover:underline-offset-8' href='./pages/error/500.hbs'>500
+    </ul>
+  </nav>
+</div>
+</div>
