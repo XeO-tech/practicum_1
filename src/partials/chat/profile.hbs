@@ -1,2 +1,8 @@
-<img src='/src/assets/profile-icon.png' alt='profile icon' />
-<a>Profile</a>
+<div class='flex items-center h-[50px] w-full align-middle m-0 p-0'>
+  <a href="/src/pages/profile/profile.hbs">
+    <img src="/src/assets/user-profile-pic-small.svg" alt="User icon"/>
+  </a>
+  <div class='pl-3'>
+    {{> 'buttons/text-button' label='Profile' href='/src/pages/profile/profile.hbs'}}
+  </div>
+</div>

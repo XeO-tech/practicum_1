@@ -1,16 +1,16 @@
 {{!< layout}}
 
 <div class='flex h-screen items-center justify-center'>
-  <div class='w-[340px] rounded-lg bg-dark2 p-7 shadow-2xl'>
+  <div class='w-[340px] rounded-lg bg-dark2 px-7 py-3 shadow-2xl'>
     {{> 'headers/h1' header='sign_up'}}
     <form>
-      {{> 'form/input-text' label='Email'}}
+      {{> 'form/input-text' label='Email' inputType='email'}}
       {{> 'form/input-text' label='Login'}}
       {{> 'form/input-text' label='Name'}}
       {{> 'form/input-text' label='Surname'}}
       {{> 'form/input-text' label='Phone number'}}
-      {{> 'form/input-text' label='Password'}}
-      {{> 'form/input-text' label='Repeat password'}}
+      {{> 'form/input-text' label='Password' inputType='password'}}
+      {{> 'form/input-text' label='Repeat password' inputType='password'}}
       {{> 'buttons/submit-button' label='Sign Up'}}
       {{> 'buttons/text-button' label='I have an account'}}
     </form>
