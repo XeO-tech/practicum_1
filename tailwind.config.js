@@ -12,6 +12,7 @@ module.exports = {
         dark1: '#28293D',
         dark2: '#32334D',
         dark3: '#555770',
+        dark4: '#C7C9D9',
         purple1: '#6600CC',
         purple2: '#AC5DD9',
         purple3: '#DDA5E9',
@@ -21,6 +22,7 @@ module.exports = {
         green3: '#57EBA1',
         teal1: '#00CFDE',
         red0: '#E53535',
+        red2: '#FF5C5C',
       },
       fontSize: {
         xxs: '0.6rem',

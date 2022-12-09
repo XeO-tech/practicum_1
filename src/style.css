@@ -20,6 +20,14 @@ input:not(:placeholder-shown) ~ div {
   @apply invisible;
 }
 
+input:valid ~ div.error-box {
+  @apply invisible;
+}
+
+input:invalid ~ div.error-box {
+  @apply visible;
+}
+
 @layer utilities {
   .scrollbar::-webkit-scrollbar {
     width: 9px;

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Chat app ",
   "source": "src/index.hbs",
+  "engine": "18.6.0",
   "scripts": {
     "dev": "rm -rf ./.parcel-cache && rm -rf ./dist && parcel serve",
     "build": "rm -rf ./.parcel-cache && rm -rf ./dist && parcel build && node ./server.js",
